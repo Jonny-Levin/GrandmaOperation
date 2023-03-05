@@ -140,3 +140,11 @@ http://localhost:8080/
     Password: grandma
 
 - To use the web properly, follow the instructions in the ['About'](http://localhost:8080/index.php?r=site%2Fabout) page
+
+
+Demonstration
+-------------
+![Home Page](./readme_images/Home.png)
+![Results Page](./readme_images/Results.png)
+![Login Page](./readme_images/Login.png)
+![About](./readme_images/About.png)
