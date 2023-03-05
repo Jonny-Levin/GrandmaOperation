@@ -26,7 +26,7 @@ DIRECTORY STRUCTURE
       web/                contains the entry script and Web resources
 
 
-**(most of the interesting customized logic of the project is is in /web folder and /views/site folder)**
+**(most of the interesting customized logic of the project is in /web folder and /views/site folder)**
 
 REQUIREMENTS
 ------------
@@ -46,7 +46,7 @@ INSTALLATION
 After extracting the zip file of the project, make sure to run the following commands in the terminal:
 
 
-### **~Follow carefully and make sure you don't miss anything~**
+### **Follow carefully and make sure you don't miss anything**
 ```bash
 sudo apt update
 ```
