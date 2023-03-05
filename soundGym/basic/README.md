@@ -46,7 +46,7 @@ INSTALLATION
 After extracting the zip file of the project, make sure to run the following commands in the terminal:
 
 
-### <span style="color: red">**! Follow carefully and make sure you don't miss anything ! </span>**
+### <span style="color: red">**⚠️ ! Follow carefully and make sure you don't miss anything ! ⚠️ </span>**
 ```bash
 sudo apt update
 ```
