@@ -26,9 +26,20 @@ DIRECTORY STRUCTURE
       web/                contains the entry script and Web resources
 
 
-**(most of the interesting customized logic of the project is in /web folder and /views/site folder)**
+**(Most of the interesting customized logic of the project is in:
+<mark>/web</mark> folder, <mark>/views/site</mark> folder, <mark>/models</mark> folder <mark>/controllers</mark> folder & <mark>/config</mark> folder)**
 
-REQUIREMENTS
+Summary
+-------
+All requirements were successfully achieved, with some extra added features, (followed demonstration in the end of this readme).
+
+To be improved:
+- Seperating the scripts and styling from the php files to seperate independent .js & .css files
+- Adding a customized grandma favicon
+- Encrypting the Database password and creating a hidden ENV file with all the relevant passwords
+- Allowing dynamic registration for more users except 'admin' & 'Grandma'
+
+CONFIG REQUIREMENTS
 ------------
 
 The minimum requirement by this project:
