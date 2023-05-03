@@ -36,5 +36,3 @@ tests/_support/_generated
 /.vagrant
 !*.png
 
-#vendor folder
-/vendor/*
