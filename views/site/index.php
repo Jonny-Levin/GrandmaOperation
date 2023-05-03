@@ -7,57 +7,7 @@ $this->title = 'Grandma Operation';
 
 <html>
     <head>
-        <style>
-            body {
-                background-color:azure;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            
-            .soundButton {
-                height: 33%;
-                width: 33%;  
-                src: "/images/SoundButton.png";
-            }
-
-            .deliverButton {
-                height: 33%;
-                width: 33%; 
-                src: "/images/DeliverButton.png";
-            }
-            
-            .container {
-                margin: left;
-            }
-            .slider {
-                width: 75%;
-                max-width: 325px;
-                height: 10px;
-                border-radius: 5px;  
-                background: #0420aa;
-                outline: none;
-                opacity: 0.7;
-                -webkit-transition: .2s;
-                transition: opacity .2s;
-            }
-
-            .slider::-webkit-slider-thumb {
-                -webkit-appearance: none;
-                appearance: none;
-                width: 25px;
-                height: 25px;
-                border-radius: 50%; 
-                background: #0420aa;
-                cursor: pointer;
-            }
-
-            .slider::-moz-range-thumb {
-                width: 20px;
-                height: 20px;
-                border-radius: 50%;
-                background: #0420aa;
-                cursor: pointer;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css"/>
     </head>
 
     <body> 
