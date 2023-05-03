@@ -37,4 +37,4 @@ tests/_support/_generated
 !*.png
 
 #vendor folder
-/vendor
+/vendor/*
