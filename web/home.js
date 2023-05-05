@@ -1,8 +1,8 @@
-var slider = document.getElementById("myRange");
-var output = document.getElementById("output");
-var audioCtx;
-var oscillator;
-var isSoundOn = false;
+const slider = document.getElementById("myRange");
+const output = document.getElementById("output");
+let audioCtx;
+let oscillator;
+let isSoundOn = false;
 
 // output.innerHTML = slider.value; // Display the default slider value 
 /* maybe redundant */
@@ -48,12 +48,12 @@ function createOscillatorNode() {
 }
 
 function deliverButtonClick() {
-    var xhr = new (window.XMLHttpRequest || window.ActiveXObject)();
+    const xhr = new (window.XMLHttpRequest || window.ActiveXObject)();
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
             if(xhr.status === 200) {
                 // AJAX request was successful
-                var response = JSON.parse(xhr.responseText);
+                const response = JSON.parse(xhr.responseText);
                 if (response.success) {
                     alert("Data saved successfully");
                 } 
